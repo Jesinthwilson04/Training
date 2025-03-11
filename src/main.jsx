@@ -1,16 +1,21 @@
 import {React} from "react";
 import {createRoot} from "react-dom/client";
-const root=createRoot(document.getElementById("root"));
-root.render(
-    <div>
-        <img src="falmesapp/src/assets/react.svg" />
-        <h1>React App</h1>
-        <ul>
-            <li>react is a library </li>
-            <li>it is Declarative</li>
-            <li>founded in 2013</li>
-            <li>still one of the top stack in the market</li>
+import './main.css';
 
-        </ul>
-    </div>
-)
+const root=createRoot(document.getElementById("root"));
+function Excitement(){
+    return(
+        <div className="body">
+            <h1>why i want to learn react</h1>
+            <ol>
+                <li>i always love to design</li>
+                <li>so i need a platform </li>
+                <li>i try to practice in js,css,html</li>
+                <li>now i try to upgrade me to industrial level</li>
+            </ol>
+        </div>
+    );
+}
+root.render(
+    <Excitement/>
+);

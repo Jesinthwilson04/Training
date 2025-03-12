@@ -1,0 +1,15 @@
+body {
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header img {
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #666;
+}

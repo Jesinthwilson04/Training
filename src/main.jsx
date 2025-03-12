@@ -1,21 +1,38 @@
-import {React} from "react";
+import React from "react";
 import {createRoot} from "react-dom/client";
 import './main.css';
 
 const root=createRoot(document.getElementById("root"));
-function Excitement(){
+function Header(){
     return(
-        <div className="body">
-            <h1>why i want to learn react</h1>
-            <ol>
-                <li>i always love to design</li>
-                <li>so i need a platform </li>
-                <li>i try to practice in js,css,html</li>
-                <li>now i try to upgrade me to industrial level</li>
-            </ol>
-        </div>
+        <header>
+            <img src="/react.svg" alt="react logo" width="40px"/>
+        </header>
     );
 }
+function Body()
+{
+    return(
+        <h1>
+            This is sample page for the learning purpose
+        </h1>
+    );
+}
+function Footer(){
+    return(
+        <footer>
+            ©️ 2024 Jesinthwilson development.All rights reserved.
+        </footer>
+    );
+}
+
+
+
 root.render(
-    <Excitement/>
+    <div>
+    <Header/>
+    <Body/>
+    <Footer/>
+    </div>
+    
 );

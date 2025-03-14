@@ -1,15 +1,37 @@
-body {
-    background-color: #f0f2f5;
-    font-family: Arial, sans-serif;
+
+.body {
+    background-color: grey;
+    justify-content: center;
+    color:aqua;
+    max-width: fit-content;
+    font-family: "Big Shoulders", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    align-items: center;
+    display: grid;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 20px;
     text-align: center;
-}
 
-header img {
-    margin-top: 20px;
-}
+  }
+  .header{
+    background-color:black;
+    color: aqua;
+    width: 600px;
+    display: flex;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 10px;
+    box-shadow:rgb(black, green, blue);
+    
+  }
+  .main{
+    padding-left: 20px;
+    justify-content: center;
+    padding-left: 10px;
+    gap: 10px;
+  }
 
-footer {
-    margin-top: 40px;
-    font-size: 0.9rem;
-    color: #666;
-}
+ 

@@ -7,7 +7,7 @@ import './main.css';
 const root=createRoot(document.getElementById("root"))
 root.render(
     <div className='body'>
-    <Header/>
-    <Main/>
+        <Header/>
+        <Main/>
     </div>
 )

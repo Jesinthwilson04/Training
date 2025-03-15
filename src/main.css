@@ -1,37 +1,44 @@
+body {
+  margin: 0;
+  height: 100vh; /* Ensures full viewport height */
+  background-color: bisque;
+  display: flex; /* Enables flexbox */
+  align-items: center; /* Vertically center */
+  justify-content: center; /* Horizontally center */
+}
 
 .body {
-    background-color: grey;
-    justify-content: center;
-    color:aqua;
-    max-width: fit-content;
-    font-family: "Big Shoulders", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 800;
-    font-style: normal;
-    align-items: center;
-    display: grid;
-    border-style: solid;
-    border-width: 4px;
-    border-radius: 20px;
-    text-align: center;
+  border: 5px solid black;
+  width: max-content;
+  height: auto; /* Prevents unnecessary vertical stretching */
+  padding: 20px; /* Provides spacing inside the container */
+  border-radius: 10px; /* Optional for smoother look */
+}
 
-  }
-  .header{
-    background-color:black;
-    color: aqua;
-    width: 600px;
-    display: flex;
-    border-radius: 10px;
-    padding: 10px;
-    gap: 10px;
-    box-shadow:rgb(black, green, blue);
-    
-  }
-  .main{
-    padding-left: 20px;
-    justify-content: center;
-    padding-left: 10px;
-    gap: 10px;
-  }
+.header {
+  display: flex;
+  background-color: black;
+  color: aqua;
+  height: 60px;
+  width: 100%; /* Ensures header width adapts to content */
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
 
- 
+h1 {
+  margin: 0;
+}
+
+.main {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Ensures main content fits well */
+  padding: 20px;
+}
+
+img {
+  width: 40px;
+}
